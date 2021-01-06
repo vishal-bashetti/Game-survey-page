@@ -1,12 +1,64 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <title>Document</title>
 </head>
-<body>
-    Hello world
-    
+<body id="main">
+    <h1 id="title">Gaming Survey</h1>
+    <p id="description">
+        We are interested in exploring: <br>
+        <ol>
+            <li> The affect video gaming has on student school and work performance,</li>
+            <li> The ways in which video gamers would like to be educated, and</li>
+            <li> The best ways employers can help young video gamers become more productive.</li>
+        </ol>
+    </p>
+    <br>
+
+    <form action="" id="survey-form">
+        <label for="" id="name-label">
+            Name: <input type="text" placeholder="Name" id="name" required> 
+        </label>
+        
+        <label for="" id="email-label">
+            Email: <input type="email" placeholder="Email" id="email" required>
+        </label>
+        
+        <label for="" id="number-label">
+            Number: <input type="number" min="0" max="10" placeholder="number" id="number">
+        </label>
+        
+        
+        <select name="" id="dropdown">
+            <option value="gta">Gta</option>
+            <option value="cod">Call of Duty</option>
+            <option value="pubg">pubg</option>
+        </select>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br>
+        
+        <textarea name="" id="" cols="30" rows="10">hello</textarea>
+        <button id="submit"> submit</button>
+    </form>
+
 </body>
 </html>
